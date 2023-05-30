@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Random;
 
 public class Tournament implements Subject {
-	private List<Player> players = new ArrayList<>();
+	private List<Player> players;
 	private List<Observer> observers = new ArrayList<>();
 	private Player winner;
 	private List<Match> matches = new ArrayList<>();
